@@ -1,0 +1,50 @@
+/* BannerCarousel.css */
+
+.slick-slider {
+  position: relative;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 0;
+  transition: opacity 0.3s ease;
+}
+
+.slick-dots button:before {
+  content: "•";
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.slick-dots .slick-active button:before {
+  opacity: 1;
+}

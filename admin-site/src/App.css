@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  min-width: 180px;
+  min-height: 100vh;
+  background-color: #007bff;
+  color: white;
+  position: relative;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* .sidebar-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("https://nos.jkt-1.neo.id/mcdonalds/foods/November2022/VQRNLr01mlK5MrKjX3H9.png");
+  background-size: cover;
+  z-index: 1;
+} */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

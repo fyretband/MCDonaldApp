@@ -1,0 +1,33 @@
+
+     [
+      {
+        "id": 1,
+        "username": "Rony",
+        "email": "ronyfyret08@yahoo.com",
+        "password": "samasemua",
+        "role": "admin",
+        "phoneNumber": "082157317802",
+        "address": "purnama"
+    },
+    {
+        "id": 2,
+        "username": "Jojo Scarlet",
+        "email": "jojo08@yahoo.com",
+        "password": "samasemua",
+        "role": "user",
+        "phoneNumber": "081256778911",
+        "address": "purnama"
+    },
+    {
+        "id": 3,
+        "username": "Gracelyn Scarlet",
+        "email": "baby08@yahoo.com",
+        "password": "samasemua",
+        "role": "user",
+        "phoneNumber": "087883007131",
+        "address": "serpong"
+    }
+ 
+    ]
+  
+  
